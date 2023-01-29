@@ -1,0 +1,98 @@
+.discounts__row {
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      background: #F8F8F8;
+      width: 420px;
+      height: 290px;
+      position: relative;
+      overflow: hidden;
+
+      p {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 160%;
+        margin-top: 72px;
+        margin-left: 26px;
+        width: 222px;
+        word-wrap: normal;
+
+        text-transform: uppercase;
+        position: relative;
+        z-index: 2;
+      }
+
+    }
+  }
+}
+
+
+.discounts__item_png {
+  position: absolute;
+  z-index: 101;
+  top: 0;
+}
+
+#brilliant {
+  right: 10px;
+}
+
+.vector {
+  position: absolute;
+  top: 26px;
+}
+
+.under {
+  background: #43807F;
+  position: relative;
+  z-index: 3;
+  width: 194px;
+  margin-top: 20px;
+
+  h5 {
+    display: inline;
+    padding: 7px 10px 3px 23px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+    color: white;
+  }
+
+  h4 {
+    display: inline;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 160%;
+    color: #FFFFFF;
+    padding: 0 27px 0 0;
+
+  }
+}
+
+.under.red {
+  background: #E24B33;
+}
+
+.under.yellow {
+  background: #E1A661;
+}
+
+#braslets {
+  top: 0;
+  left: 190px;
+}
+
+#rings {
+  top: 40px;
+  left: 200px;
+}
+
+.discounts {
+  margin-bottom: 120px;
+}

@@ -1,0 +1,76 @@
+.popular {
+  margin-bottom: 120px;
+}
+
+.popular__row {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    padding-bottom: 40px;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    li {
+      background: #F8F8F8;
+      text-align: center;
+      width: 200px;
+      height: 259px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      transition: .5s;
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        position: absolute;
+        bottom: 25px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      img {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        max-width: 118px;
+        max-height: 141px;
+        transform: translate(-50%, -50%);
+        transition: .5s;
+      }
+    }
+
+    li:hover {
+      img {
+        max-width: calc(118px * 1.21);
+        max-height: calc(141px*1.21);
+      }
+    }
+  }
+}
+
+#pomolvochnie {
+  p {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+#kolye {
+  p {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+  }
+}

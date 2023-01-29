@@ -1,0 +1,1036 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Prata&family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link
+          rel="stylesheet"
+          href="swiperCdn/swiper.css"
+  />
+
+  <script src="swiperCdn/swiper.js"></script>
+
+  <title>Document</title>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header__row">
+      <nav class="upper_nav">
+        <ul>
+          <li class="nav__dropdown">
+            <img id="map" src="img/header/Vector%20(1).svg" alt="map_vector">
+            <div class="city_dropdown">
+              <button class="dropdown_btn" easy-toggle="#dropdown" easy-class="open" easy-rcoe easy-parallel>
+                <p id="dropdown_chosen">Санкт-Петербург</p>
+                <img class= 'galochka' id="galka" src="img/header/Rectangle%2050.svg" alt="dropdown_btn">
+              </button>
+              <div class="dropdown_menu" id="dropdown">
+                <div class="dropdown_variant">
+                  <p>Санкт-Петербург</p>
+                  <img src="img/header/Vector%20(3).svg" alt="">
+                </div>
+                <div class="dropdown_variant">
+                  <p>Москва</p>
+
+                </div>
+                <div class="dropdown_variant">
+                  <p>Нижний-Новгород</p>
+
+                </div>
+                <div class="dropdown_variant">
+                  <p>Ростов-на-Дону</p>
+
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav__tel">
+            <img src="img/header/Vector%20(2).svg" alt="tel" id="tel_img">
+            <a href="tel:88007852535" id="tel">
+              <p>8 800 785-25-35</p>
+            </a>
+          </li>
+          <li class="nav__logo_btn">
+            <a href="#">
+              <span class="logo_container">
+                <h1>Goldy</h1>
+                <h2>Store</h2>
+              </span>
+              <span class="logo_container">
+                <p>ювелирный магазин</p>
+              </span>
+            </a>
+          </li>
+          <li class="nav__auth">
+            <a href="#">Вход</a>
+            <img src="img/header/Line%207.svg" alt="line">
+            <a href="#">Регистрация</a>
+          </li>
+          <li class="nav__btns">
+            <a href="#" class="nav__btns_favorite nav__btn">
+              <img src="img/header/coolicon.svg" alt="heart">
+              <div class="nav__btns_favorite_notif">
+                <p>23</p>
+              </div>
+            </a>
+            <a href="#" class="nav__btn">
+              <img src="img/header/chart.svg" alt="chart">
+            </a>
+            <a href="#" class="nav__btn">
+              <img src="img/header/bag.svg" alt="bag">
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="lower_nav">
+        <ul>
+          <li><a href="#">Каталог</a></li>
+          <li><a href="#">Акции</a></li>
+          <li><a href="#">Бренды</a></li>
+          <li><a href="#">Магазины</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Доставка и оплата</a></li>
+          <li><a href="#">Статьи</a></li>
+          <div class="line"></div>
+          <form action="#">
+            <button type="submit"><img src="img/header/Union.svg" alt="lupa"></button>
+            <input type="text" placeholder="Поиск по сайту">
+          </form>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<section class="carousel">
+  <div class="container">
+    <div class="carousel__row">
+      <div class="swiper carousel__swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide carousel__slide">
+            <img class="briliant" src="img/carousel/Union%20(1).svg" alt="briliant">
+            <div class="carousel__text">
+              <p>Суперскидка до 60%</p>
+              <h1>на бриллианты</h1>
+              <button>Подробнее</button>
+            </div>
+            <img class="carousel__slide_ring" src="img/carousel/pngegg%201@2x.png" alt="ring">
+          </div>
+          <div class="swiper-slide carousel__slide">
+            <img class="briliant" src="img/carousel/Union%20(1).svg" alt="briliant">
+            <div class="carousel__text">
+              <p>Суперскидка до 60%</p>
+              <h1>на бриллианты</h1>
+              <button>Подробнее</button>
+            </div>
+            <img class="carousel__slide_ring" src="img/carousel/pngegg%201@2x.png" alt="ring">
+          </div>
+          <div class="swiper-slide carousel__slide">
+            <img class="briliant" src="img/carousel/Union%20(1).svg" alt="briliant">
+            <div class="carousel__text">
+              <p>Суперскидка до 60%</p>
+              <h1>на бриллианты</h1>
+              <button>Подробнее</button>
+            </div>
+            <img class="carousel__slide_ring" src="img/carousel/pngegg%201@2x.png" alt="ring">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper__prev swiper-btn-prev">
+          <img src="img/carousel/Arrow%201.svg" alt="arrow">
+        </div>
+        <div class="swiper-btn-next">
+          <img src="img/carousel/Arrow%201%20(1).svg" alt="arrow">
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<section class="popular">
+  <div class="container">
+    <div class="popular__row">
+      <h1>Популярные категории</h1>
+      <div class="popular__items">
+        <ul>
+          <li><a href="#">
+            <img src="img/popular/pngegg%20(1)%204@2x.png" alt="rings">
+            <div class="text_container">
+              <p>Кольца</p>
+            </div>
+          </a></li>
+          <li><a href="#">
+            <img src="img/popular/pngegg%20(2)%204@2x.png" alt="rings">
+            <p>Серьги</p>
+          </a></li>
+          <li id="pomolvochnie"><a href="#">
+            <img src="img/popular/pngegg%20(3)%204@2x.png" alt="rings">
+            <p>Помолвочные кольца</p>
+          </a></li>
+          <li><a href="#">
+            <img src="img/popular/pngegg%20(4)%204@2x.png" alt="rings">
+            <p>Браслеты</p>
+          </a></li>
+          <li id="kolye"><a href="#">
+            <img src="img/popular/pngegg%20(5)%204@2x.png" alt="rings">
+            <p>Колье и подвески</p>
+          </a></li>
+          <li><a href="#">
+            <img src="img/popular/pngegg%20(6)%204@2x.png" alt="rings">
+            <p>Часы</p>
+          </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sale">
+  <div class="container">
+    <div class="sale__row">
+      <h1>Распродажа</h1>
+      <div class="sale__btns">
+        <ul>
+          <li class="sale__btn pressed"><a href="#">Кольца</a></li>
+          <li class="sale__btn"><a href="#">Серьги</a></li>
+          <li class="sale__btn"><a href="#">Браслеты</a></li>
+          <li class="sale__btn"><a href="#">Часы</a></li>
+        </ul>
+        <div class="sale__arows">
+          <div class="sale__arows_prev empty">
+            <img src="img/sale/prev.svg" alt="prev">
+          </div>
+          <div class="sale__arows_next">
+            <img src="img/sale/next.svg" alt="next">
+          </div>
+        </div>
+      </div>
+      <div class="sale__items">
+        <div class="swiper sale__slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <ul>
+              <li>
+                <div class="swiper sale__item_swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/sale/EE5B443D9C82A365C3EA3FE09DAF%201@2x.png" alt="ring"></div>
+                    <div class="swiper-slide"><img src="img/sale/EE5B443D9C82A365C3EA3FE09DAF%201@2x.png" alt="ring"></div>
+                    <div class="swiper-slide"><img src="img/sale/EE5B443D9C82A365C3EA3FE09DAF%201@2x.png" alt="ring"></div>
+                  </div>
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+                </div>
+                <div class="sale__item_price">
+                  <p>41 000 ₽</p>
+                  <h5>65 000 ₽</h5>
+                  <h3>-45%</h3>
+                </div>
+                <div class="sale__item_description">
+                  <h3>Стильное кольцо из белого золота с бриллиантами</h3>
+                </div>
+                <div class="sale__item_btns">
+                  <div class="sale__item_like">
+                    <img class="like_btn" src="img/sale/coolicon.svg" alt="like">
+                    <img class="hovered_like" src="img/sale/hovered_heart.svg" alt="like">
+                    <img class="pressed_like" src="img/sale/red.svg" alt="like">
+                  </div>
+                  <div class="sale__item_seen">
+                    <img class="eye_btn" src="img/sale/eyes.svg" alt="eyes">
+                    <img class="hovered_eye" src="img/sale/hovered_eye.svg" alt="eyes">
+                  </div>
+                </div>
+                <h2 class="sale__item_saletext">Sale</h2>
+<!--                <div class="sale__item_hidden">-->
+<!--                  <div class="sale__item_gold_dropdown">-->
+<!--                    <h5>Белое золото</h5>-->
+<!--                    <img src="img/sale/Rectangle%2050%20(1).svg" alt="galochka">-->
+<!--                  </div>-->
+<!--                  <div class="sale__item_size_dropdown">-->
+<!--                    <h5>Размер:16</h5>-->
+<!--                    <img src="img/sale/Rectangle%2050%20(1).svg" alt="galochka">-->
+<!--                  </div>-->
+<!--                </div>-->
+              </li>
+              <li>
+                <div class="swiper sale__item_swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/sale/2.png" alt="ring"></div>
+                    <div class="swiper-slide"><img src="img/sale/2.png" alt="ring"></div>
+                    <div class="swiper-slide"><img src="img/sale/2.png" alt="ring"></div>
+                  </div>
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+                </div>
+                <div class="sale__item_price">
+                  <p>56 000 ₽</p>
+                </div>
+                <div class="sale__item_description">
+                  <h3>Стильное кольцо из белого золота с бриллиантами</h3>
+                </div>
+                <div class="sale__item_btns">
+                  <div class="sale__item_like">
+                    <img class="like_btn" src="img/sale/coolicon.svg" alt="like">
+                    <img class="hovered_like" src="img/sale/hovered_heart.svg" alt="like">
+                    <img class="pressed_like" src="img/sale/red.svg" alt="like">
+                  </div>
+                  <div class="sale__item_seen">
+                    <img class="eye_btn" src="img/sale/eyes.svg" alt="eyes">
+                    <img class="hovered_eye" src="img/sale/hovered_eye.svg" alt="eyes">
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="swiper sale__item_swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/sale/3.png" alt="ring"></div>
+                    <div class="swiper-slide"><img src="img/sale/3.png" alt="ring"></div>
+                    <div class="swiper-slide"><img src="img/sale/3.png" alt="ring"></div>
+                  </div>
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+                </div>
+                <div class="sale__item_price">
+                  <p>37 500 ₽</p>
+                </div>
+                <div class="sale__item_description">
+                  <h3>Стильное кольцо из белого золота с бриллиантами</h3>
+                </div>
+                <div class="sale__item_btns">
+                  <div class="sale__item_like">
+                    <img class="like_btn" src="img/sale/coolicon.svg" alt="like">
+                    <img class="hovered_like" src="img/sale/hovered_heart.svg" alt="like">
+                    <img class="pressed_like" src="img/sale/red.svg" alt="like">
+                  </div>
+                  <div class="sale__item_seen">
+                    <img class="eye_btn" src="img/sale/eyes.svg" alt="eyes">
+                    <img class="hovered_eye" src="img/sale/hovered_eye.svg" alt="eyes">
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="swiper sale__item_swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/sale/4.png" alt="ring"></div>
+                    <div class="swiper-slide"><img src="img/sale/4.png" alt="ring"></div>
+                    <div class="swiper-slide"><img src="img/sale/4.png" alt="ring"></div>
+                  </div>
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+                </div>
+                <div class="sale__item_price">
+                  <p>39 200 ₽</p>
+                </div>
+                <div class="sale__item_description">
+                  <h3>Стильное кольцо из белого золота с бриллиантами</h3>
+                </div>
+                <div class="sale__item_btns">
+                  <div class="sale__item_like">
+                    <img class="like_btn" src="img/sale/coolicon.svg" alt="like">
+                    <img class="hovered_like" src="img/sale/hovered_heart.svg" alt="like">
+                    <img class="pressed_like" src="img/sale/red.svg" alt="like">
+                  </div>
+                  <div class="sale__item_seen">
+                    <img class="eye_btn" src="img/sale/eyes.svg" alt="eyes">
+                    <img class="hovered_eye" src="img/sale/hovered_eye.svg" alt="eyes">
+                  </div>
+                </div>
+              </li>
+            </ul>
+            </div>
+
+
+
+            <div class="swiper-slide">
+              <ul>
+                <li>
+                  <div class="swiper sale__item_swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="img/sale/EE5B443D9C82A365C3EA3FE09DAF%201@2x.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/EE5B443D9C82A365C3EA3FE09DAF%201@2x.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/EE5B443D9C82A365C3EA3FE09DAF%201@2x.png" alt="ring"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <div class="sale__item_price">
+                    <p>41 000 ₽</p>
+                    <h5>65 000 ₽</h5>
+                    <h3>-45%</h3>
+                  </div>
+                  <div class="sale__item_description">
+                    <h3>Стильное кольцо из белого золота с бриллиантами</h3>
+                  </div>
+                  <div class="sale__item_btns">
+                    <div class="sale__item_like">
+                      <img class="like_btn" src="img/sale/coolicon.svg" alt="like">
+                      <img class="hovered_like" src="img/sale/hovered_heart.svg" alt="like">
+                      <img class="pressed_like" src="img/sale/red.svg" alt="like">
+                    </div>
+                    <div class="sale__item_seen">
+                      <img class="eye_btn" src="img/sale/eyes.svg" alt="eyes">
+                      <img class="hovered_eye" src="img/sale/hovered_eye.svg" alt="eyes">
+                    </div>
+                  </div>
+                  <h2 class="sale__item_saletext">Sale</h2>
+                  <!--                <div class="sale__item_hidden">-->
+                  <!--                  <div class="sale__item_gold_dropdown">-->
+                  <!--                    <h5>Белое золото</h5>-->
+                  <!--                    <img src="img/sale/Rectangle%2050%20(1).svg" alt="galochka">-->
+                  <!--                  </div>-->
+                  <!--                  <div class="sale__item_size_dropdown">-->
+                  <!--                    <h5>Размер:16</h5>-->
+                  <!--                    <img src="img/sale/Rectangle%2050%20(1).svg" alt="galochka">-->
+                  <!--                  </div>-->
+                  <!--                </div>-->
+                </li>
+                <li>
+                  <div class="swiper sale__item_swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="img/sale/2.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/2.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/2.png" alt="ring"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <div class="sale__item_price">
+                    <p>56 000 ₽</p>
+                  </div>
+                  <div class="sale__item_description">
+                    <h3>Стильное кольцо из белого золота с бриллиантами</h3>
+                  </div>
+                  <div class="sale__item_btns">
+                    <div class="sale__item_like">
+                      <img class="like_btn" src="img/sale/coolicon.svg" alt="like">
+                      <img class="hovered_like" src="img/sale/hovered_heart.svg" alt="like">
+                      <img class="pressed_like" src="img/sale/red.svg" alt="like">
+                    </div>
+                    <div class="sale__item_seen">
+                      <img class="eye_btn" src="img/sale/eyes.svg" alt="eyes">
+                      <img class="hovered_eye" src="img/sale/hovered_eye.svg" alt="eyes">
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="swiper sale__item_swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="img/sale/3.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/3.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/3.png" alt="ring"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <div class="sale__item_price">
+                    <p>37 500 ₽</p>
+                  </div>
+                  <div class="sale__item_description">
+                    <h3>Стильное кольцо из белого золота с бриллиантами</h3>
+                  </div>
+                  <div class="sale__item_btns">
+                    <div class="sale__item_like">
+                      <img class="like_btn" src="img/sale/coolicon.svg" alt="like">
+                      <img class="hovered_like" src="img/sale/hovered_heart.svg" alt="like">
+                      <img class="pressed_like" src="img/sale/red.svg" alt="like">
+                    </div>
+                    <div class="sale__item_seen">
+                      <img class="eye_btn" src="img/sale/eyes.svg" alt="eyes">
+                      <img class="hovered_eye" src="img/sale/hovered_eye.svg" alt="eyes">
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="swiper sale__item_swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="img/sale/4.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/4.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/4.png" alt="ring"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <div class="sale__item_price">
+                    <p>39 200 ₽</p>
+                  </div>
+                  <div class="sale__item_description">
+                    <h3>Стильное кольцо из белого золота с бриллиантами</h3>
+                  </div>
+                  <div class="sale__item_btns">
+                    <div class="sale__item_like">
+                      <img class="like_btn" src="img/sale/coolicon.svg" alt="like">
+                      <img class="hovered_like" src="img/sale/hovered_heart.svg" alt="like">
+                      <img class="pressed_like" src="img/sale/red.svg" alt="like">
+                    </div>
+                    <div class="sale__item_seen">
+                      <img class="eye_btn" src="img/sale/eyes.svg" alt="eyes">
+                      <img class="hovered_eye" src="img/sale/hovered_eye.svg" alt="eyes">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+
+            <div class="swiper-slide">
+              <ul>
+                <li>
+                  <div class="swiper sale__item_swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="img/sale/EE5B443D9C82A365C3EA3FE09DAF%201@2x.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/EE5B443D9C82A365C3EA3FE09DAF%201@2x.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/EE5B443D9C82A365C3EA3FE09DAF%201@2x.png" alt="ring"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <div class="sale__item_price">
+                    <p>41 000 ₽</p>
+                    <h5>65 000 ₽</h5>
+                    <h3>-45%</h3>
+                  </div>
+                  <div class="sale__item_description">
+                    <h3>Стильное кольцо из белого золота с бриллиантами</h3>
+                  </div>
+                  <div class="sale__item_btns">
+                    <div class="sale__item_like">
+                      <img class="like_btn" src="img/sale/coolicon.svg" alt="like">
+                      <img class="hovered_like" src="img/sale/hovered_heart.svg" alt="like">
+                      <img class="pressed_like" src="img/sale/red.svg" alt="like">
+                    </div>
+                    <div class="sale__item_seen">
+                      <img class="eye_btn" src="img/sale/eyes.svg" alt="eyes">
+                      <img class="hovered_eye" src="img/sale/hovered_eye.svg" alt="eyes">
+                    </div>
+                  </div>
+                  <h2 class="sale__item_saletext">Sale</h2>
+                  <!--                <div class="sale__item_hidden">-->
+                  <!--                  <div class="sale__item_gold_dropdown">-->
+                  <!--                    <h5>Белое золото</h5>-->
+                  <!--                    <img src="img/sale/Rectangle%2050%20(1).svg" alt="galochka">-->
+                  <!--                  </div>-->
+                  <!--                  <div class="sale__item_size_dropdown">-->
+                  <!--                    <h5>Размер:16</h5>-->
+                  <!--                    <img src="img/sale/Rectangle%2050%20(1).svg" alt="galochka">-->
+                  <!--                  </div>-->
+                  <!--                </div>-->
+                </li>
+                <li>
+                  <div class="swiper sale__item_swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="img/sale/2.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/2.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/2.png" alt="ring"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <div class="sale__item_price">
+                    <p>56 000 ₽</p>
+                  </div>
+                  <div class="sale__item_description">
+                    <h3>Стильное кольцо из белого золота с бриллиантами</h3>
+                  </div>
+                  <div class="sale__item_btns">
+                    <div class="sale__item_like">
+                      <img class="like_btn" src="img/sale/coolicon.svg" alt="like">
+                      <img class="hovered_like" src="img/sale/hovered_heart.svg" alt="like">
+                      <img class="pressed_like" src="img/sale/red.svg" alt="like">
+                    </div>
+                    <div class="sale__item_seen">
+                      <img class="eye_btn" src="img/sale/eyes.svg" alt="eyes">
+                      <img class="hovered_eye" src="img/sale/hovered_eye.svg" alt="eyes">
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="swiper sale__item_swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="img/sale/3.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/3.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/3.png" alt="ring"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <div class="sale__item_price">
+                    <p>37 500 ₽</p>
+                  </div>
+                  <div class="sale__item_description">
+                    <h3>Стильное кольцо из белого золота с бриллиантами</h3>
+                  </div>
+                  <div class="sale__item_btns">
+                    <div class="sale__item_like">
+                      <img class="like_btn" src="img/sale/coolicon.svg" alt="like">
+                      <img class="hovered_like" src="img/sale/hovered_heart.svg" alt="like">
+                      <img class="pressed_like" src="img/sale/red.svg" alt="like">
+                    </div>
+                    <div class="sale__item_seen">
+                      <img class="eye_btn" src="img/sale/eyes.svg" alt="eyes">
+                      <img class="hovered_eye" src="img/sale/hovered_eye.svg" alt="eyes">
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="swiper sale__item_swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="img/sale/4.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/4.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/4.png" alt="ring"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <div class="sale__item_price">
+                    <p>39 200 ₽</p>
+                  </div>
+                  <div class="sale__item_description">
+                    <h3>Стильное кольцо из белого золота с бриллиантами</h3>
+                  </div>
+                  <div class="sale__item_btns">
+                    <div class="sale__item_like">
+                      <img class="like_btn" src="img/sale/coolicon.svg" alt="like">
+                      <img class="hovered_like" src="img/sale/hovered_heart.svg" alt="like">
+                      <img class="pressed_like" src="img/sale/red.svg" alt="like">
+                    </div>
+                    <div class="sale__item_seen">
+                      <img class="eye_btn" src="img/sale/eyes.svg" alt="eyes">
+                      <img class="hovered_eye" src="img/sale/hovered_eye.svg" alt="eyes">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+
+
+            <div class="swiper-slide">
+              <ul>
+                <li>
+                  <div class="swiper sale__item_swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="img/sale/EE5B443D9C82A365C3EA3FE09DAF%201@2x.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/EE5B443D9C82A365C3EA3FE09DAF%201@2x.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/EE5B443D9C82A365C3EA3FE09DAF%201@2x.png" alt="ring"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <div class="sale__item_price">
+                    <p>41 000 ₽</p>
+                    <h5>65 000 ₽</h5>
+                    <h3>-45%</h3>
+                  </div>
+                  <div class="sale__item_description">
+                    <h3>Стильное кольцо из белого золота с бриллиантами</h3>
+                  </div>
+                  <div class="sale__item_btns">
+                    <div class="sale__item_like">
+                      <img class="like_btn" src="img/sale/coolicon.svg" alt="like">
+                      <img class="hovered_like" src="img/sale/hovered_heart.svg" alt="like">
+                      <img class="pressed_like" src="img/sale/red.svg" alt="like">
+                    </div>
+                    <div class="sale__item_seen">
+                      <img class="eye_btn" src="img/sale/eyes.svg" alt="eyes">
+                      <img class="hovered_eye" src="img/sale/hovered_eye.svg" alt="eyes">
+                    </div>
+                  </div>
+                  <h2 class="sale__item_saletext">Sale</h2>
+                  <!--                <div class="sale__item_hidden">-->
+                  <!--                  <div class="sale__item_gold_dropdown">-->
+                  <!--                    <h5>Белое золото</h5>-->
+                  <!--                    <img src="img/sale/Rectangle%2050%20(1).svg" alt="galochka">-->
+                  <!--                  </div>-->
+                  <!--                  <div class="sale__item_size_dropdown">-->
+                  <!--                    <h5>Размер:16</h5>-->
+                  <!--                    <img src="img/sale/Rectangle%2050%20(1).svg" alt="galochka">-->
+                  <!--                  </div>-->
+                  <!--                </div>-->
+                </li>
+                <li>
+                  <div class="swiper sale__item_swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="img/sale/2.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/2.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/2.png" alt="ring"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <div class="sale__item_price">
+                    <p>56 000 ₽</p>
+                  </div>
+                  <div class="sale__item_description">
+                    <h3>Стильное кольцо из белого золота с бриллиантами</h3>
+                  </div>
+                  <div class="sale__item_btns">
+                    <div class="sale__item_like">
+                      <img class="like_btn" src="img/sale/coolicon.svg" alt="like">
+                      <img class="hovered_like" src="img/sale/hovered_heart.svg" alt="like">
+                      <img class="pressed_like" src="img/sale/red.svg" alt="like">
+                    </div>
+                    <div class="sale__item_seen">
+                      <img class="eye_btn" src="img/sale/eyes.svg" alt="eyes">
+                      <img class="hovered_eye" src="img/sale/hovered_eye.svg" alt="eyes">
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="swiper sale__item_swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="img/sale/3.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/3.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/3.png" alt="ring"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <div class="sale__item_price">
+                    <p>37 500 ₽</p>
+                  </div>
+                  <div class="sale__item_description">
+                    <h3>Стильное кольцо из белого золота с бриллиантами</h3>
+                  </div>
+                  <div class="sale__item_btns">
+                    <div class="sale__item_like">
+                      <img class="like_btn" src="img/sale/coolicon.svg" alt="like">
+                      <img class="hovered_like" src="img/sale/hovered_heart.svg" alt="like">
+                      <img class="pressed_like" src="img/sale/red.svg" alt="like">
+                    </div>
+                    <div class="sale__item_seen">
+                      <img class="eye_btn" src="img/sale/eyes.svg" alt="eyes">
+                      <img class="hovered_eye" src="img/sale/hovered_eye.svg" alt="eyes">
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="swiper sale__item_swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="img/sale/4.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/4.png" alt="ring"></div>
+                      <div class="swiper-slide"><img src="img/sale/4.png" alt="ring"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <div class="sale__item_price">
+                    <p>39 200 ₽</p>
+                  </div>
+                  <div class="sale__item_description">
+                    <h3>Стильное кольцо из белого золота с бриллиантами</h3>
+                  </div>
+                  <div class="sale__item_btns">
+                    <div class="sale__item_like">
+                      <img class="like_btn" src="img/sale/coolicon.svg" alt="like">
+                      <img class="hovered_like" src="img/sale/hovered_heart.svg" alt="like">
+                      <img class="pressed_like" src="img/sale/red.svg" alt="like">
+                    </div>
+                    <div class="sale__item_seen">
+                      <img class="eye_btn" src="img/sale/eyes.svg" alt="eyes">
+                      <img class="hovered_eye" src="img/sale/hovered_eye.svg" alt="eyes">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="discounts">
+  <div class="container">
+    <div class="discounts__row">
+      <ul>
+        <li>
+          <a href="#">
+            <p>
+              Скидки <br> на все украшения с бриллиантами
+            </p>
+            <div class="under">
+              <h5>До</h5>
+              <h4>-50%</h4>
+            </div>
+            <img src="img/discounts/Union%20(2).svg" alt="vector" class="vector">
+            <img src="img/discounts/pngegg%202.png" alt="png" class="discounts__item_png" id="brilliant">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p>
+              Скидки <br>
+              на кольца <br>
+              и браслеты
+            </p>
+            <div class="under red">
+              <h5>До</h5>
+              <h4>-40%</h4>
+            </div>
+            <img src="img/discounts/Union%20(2).svg" alt="vector" class="vector">
+            <img src="img/discounts/pngegg%20(1)%205.png" alt="png" class="discounts__item_png" id="braslets">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p>
+              снижение цен <br> на обручальные кольца
+            </p>
+            <div class="under yellow">
+              <h5>До</h5>
+              <h4>-60%</h4>
+            </div>
+            <img src="img/discounts/Union%20(2).svg" alt="vector" class="vector">
+            <img src="img/discounts/pngegg%20(3)%205.png" alt="png" class="discounts__item_png" id="rings">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="daily">
+  <div class="container">
+    <div class="daily__row">
+      <div class="daily__header">
+        <h3>Товар дня</h3>
+        <div class="daily__arows">
+          <div class="daily__arows_prev empty">
+            <img src="img/sale/prev.svg" alt="prev">
+          </div>
+          <div class="daily__arows_next">
+            <img src="img/sale/next.svg" alt="next">
+          </div>
+        </div>
+      </div>
+      <div class="daily__item_content">
+        <div class="daily__swiper swiper">
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide daily__slide">
+              <div class="daily__slide_icons">
+                <p id="new" >New</p>
+                <p id="hit" >Хит</p>
+                <p id="sale" >Sale</p>
+              </div>
+              <img src="img/daily/04EDA19C9767F7100CFFDE5D049E%201@2x.png" alt="daily">
+            </div>
+            <div class="swiper-slide">
+              <div class="daily__slide_icons">
+                <p id="new2" >New</p>
+                <p id="hit2" >Хит</p>
+                <p id="sale2" >Sale</p>
+              </div>
+              <img src="img/daily/04EDA19C9767F7100CFFDE5D049E%201@2x.png" alt="daily">
+            </div>
+            <div class="swiper-slide">
+              <div class="daily__slide_icons">
+                <p id="new3" >New</p>
+                <p id="hit3" >Хит</p>
+                <p id="sale3" >Sale</p>
+              </div>
+              <img src="img/daily/04EDA19C9767F7100CFFDE5D049E%201@2x.png" alt="daily">
+            </div>
+          </div>
+
+          <div class="daily__swiper_prev empty">
+            <img src="img/daily/Rectangle%20152.svg" alt="prev">
+          </div>
+          <div class="daily__swiper_next">
+            <img src="img/daily/Rectangle%20152.svg" alt="next">
+          </div>
+
+        </div>
+
+        <div class="daily__content">
+          <div class="content__rating">
+            <img src="img/daily/Group%20809.svg" alt="starz">
+            <p>4,2</p>
+          </div>
+          <h1>Кольцо из золота с бриллиантами</h1>
+          <h5>Артикул: 1012076</h5>
+          <div class="daily__content_price_n_clock">
+            <h2>22 000 ₽</h2>
+            <h3>22 000 ₽</h3>
+            <h4>-45%</h4>
+            <div class="content__clock">
+              <div class="clock__box">  <h5 id="hours" >12</h5>  <p>часов</p></div>
+              :
+              <div class="clock__box"><h5 id="minutes" >46</h5> <p>минут</p></div>
+              :
+              <div class="clock__box"><h5 id="seconds" >51</h5> <p>секунд</p></div>
+            </div>
+          </div>
+          <div class="daily_line"></div>
+          <div class="daily__item_color">
+            <p>Цвет</p>
+            <div class="circles">
+              <div class="color__circle">
+                <div class="big_circle">
+                  <div id="grey" class="small_circle"></div>
+                </div>
+              </div>
+              <div class="color__circle chosen">
+                <div class="big_circle">
+                  <div id="gold" class="small_circle"></div>
+                </div>
+              </div>
+              <div class="color__circle">
+                <div class="big_circle">
+                  <div id="brown" class="small_circle"></div>
+                </div>
+              </div>
+              <div class="color__circle">
+                <div class="big_circle">
+                  <div id="green" class="small_circle"></div>
+                </div>
+              </div>
+            </div>
+            <div class="daily__item_sizing">
+              <div class="sizing__header">
+                <p>Размер</p>
+                <h4 class="voprosik" >?</h4>
+              </div>
+              <div class="hidden__window">
+                <div class="hidden__text">
+                  Также как существующая <br> теория напрямую зависит <br> от экономической <br> целесообразности <br> принимаемых решений.
+                  <div class="square"></div>
+                </div>
+              </div>
+              <ul>
+                <li class="size chosen" >16,5</li>
+                <li class="size">17,5</li>
+                <li class="size">18,5</li>
+                <li class="size">19</li>
+                <li class="size">19,5</li>
+                <li class="size">19,5</li>
+                <li class="size">18,5</li>
+                <li class="size">19</li>
+                <li class="size empty" >19,5</li>
+                <li class="size empty" >19,5</li>
+              </ul>
+            </div>
+            <div class="daily__item_btns">
+              <div class="purchase_box">
+                <button id="tocart" >в корзину</button>
+                <button id="oneclick"  >купить в 1 клик</button>
+              </div>
+              <div class="other_btns_box">
+                <div class="other__like">
+                  <img src="img/sale/coolicon.svg" alt="like">
+                  <img class="other__like_hovered " src="img/daily/hover.svg" alt="hover">
+                  <img class="other__like_pressed" src="img/daily/red.svg" alt="red">
+                  <h4>Сохранить</h4>
+                </div>
+                <div class="other__chart">
+                  <img src="img/daily/Group%202.svg" alt="like">
+                  <h4>Сравнить</h4>
+                </div>
+                <div class="other__share">
+                  <img src="img/daily/share-one.svg" alt="like">
+                  <h4>Поделиться</h4>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="news">
+  <div class="container">
+    <div class="news__row">
+      <div class="news__header">
+        <h1>Статьи</h1>
+        <a href="#">
+          Читать все
+          <img src="img/news/Arrow%202.svg" alt="read">
+        </a>
+      </div>
+      <div class="news__content">
+        <div class="news__item">
+          <a href="#">
+            <img src="img/news/mathilde-langevin-f1FkoppimsA-unsplash%201.png" alt="pic">
+            <p>21 сентября 2021</p>
+            <h5>Обручальные кольца: тренды 2021</h5>
+          </a>
+        </div>
+        <div class="news__item">
+          <a href="#">
+            <img src="img/news/raphael-lovaski-guiVHikFkvQ-unsplash%201.png" alt="pic">
+            <p>25 сентября 2021</p>
+            <h5>Главные ювелирные тренды года</h5>
+          </a>
+        </div>
+        <div class="news__item">
+          <a href="#">
+            <img src="img/news/fiona-murray-KE95wIwKp4Y-unsplash%201.png" alt="pic">
+            <p>21 сентября 2021</p>
+            <h5>Жемчуг: 7 малоизвестных фактов <br> о культовом украшении</h5>
+          </a>
+        </div>
+        <div class="news__item">
+          <a href="#">
+            <img src="img/news/anastasia-anastasia-nlQFycTD04M-unsplash%201.png" alt="pic">
+            <p>21 сентября 2021</p>
+            <h5>Как отличить золото от подделки: <br> 10 практических советов</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<script src="scripts/header.js"></script>
+<script src="scripts/swiper.js"></script>
+<script src="scripts/sale.js"></script>
+<script src="scripts/daily.js"></script>
+</body>
+</html>
